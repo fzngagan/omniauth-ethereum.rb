@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.7", "< 4.0"
 
   # OmniAuth is what this strategy is providing
-  spec.add_dependency 'omniauth', '~> 2.0'
+  spec.add_dependency 'omniauth', '1.9.1'
 
   # Use Ruby-Eth for signature recovery
   spec.add_dependency 'eth', '~> 0.4.16'
